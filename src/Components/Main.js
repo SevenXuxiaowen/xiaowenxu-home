@@ -1,28 +1,28 @@
 import React from 'react'
-// import ReactDOM from 'react-dom'
-import ScrollSnap from 'scroll-snap'
+// // import ReactDOM from 'react-dom'
+// import ScrollSnap from 'scroll-snap'
 
-const snapConfig = {
-    scrollSnapDestination: '0% 100%',
-    scrollTimeout: 50,
-    scrollTime: 300,
-}
+// const snapConfig = {
+//     scrollSnapDestination: '0% 100%',
+//     scrollTimeout: 50,
+//     scrollTime: 300,
+// }
 
 class Main extends React.Component{
-    container = React.createRef();
-    bindScrollSnap() {
-        function callback() {
-          // optional callback
-        }
+//     container = React.createRef();
+//     bindScrollSnap() {
+//         function callback() {
+//           // optional callback
+//         }
     
-        const element = this.container.current
-        const snapObject = new ScrollSnap(element, snapConfig)
-        snapObject.bind(callback)
-    }
+//         const element = this.container.current
+//         const snapObject = new ScrollSnap(element, snapConfig)
+//         snapObject.bind(callback)
+//     }
 
-    componentDidMount() {
-        this.bindScrollSnap()
-    }
+//     componentDidMount() {
+//         this.bindScrollSnap()
+//     }
 
     render() {
         return (
