@@ -29,7 +29,7 @@ class Main extends React.Component{
             <div id="container" ref={this.container}>
                 <div className="page">
                     <div className="p-main">
-                        <div className="title">Xiaowen Xu</div>
+                        <div className="title">Seven Xu</div>
                         <br/>
                         <p>Software Developer</p>
                         <br/>
