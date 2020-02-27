@@ -66,7 +66,7 @@ class Main extends React.Component{
                                 <p>Web2.0 development</p>
                                 <div>
                                     <a href="https://github.com/SevenXuxiaowen/Trauma-Forest">GitHub</a>
-                                    <a href="#">Demo</a>
+                                    <a href="https://sevenxu.com/">Demo</a>
                                 </div>
                                 <p>Node.js, Express, MongoDB, React.js, semantic UI</p>
                                 <p className="grey">Web social community to help release the pressure of group who are in the shadow of childhood trauma, where the user can create, post and edit their story as well as write comments of other’s story. </p>
@@ -103,7 +103,7 @@ class Main extends React.Component{
                                 <p> Embedded NLP Chatbot</p>
                                 <div>
                                     <a href="https://github.com/SevenXuxiaowen/smart-items">GitHub</a>
-                                    <a href="#">Demo</a>
+                                    <a href="https://sevenxu.com/">Demo</a>
                                 </div>
                                 <p>Node.js, Express, MongoDB, React.js, Bootstrap</p>
                                 <p className="grey">Responsive web application to display Walmart product search results and rank-ordered recommendations.</p>

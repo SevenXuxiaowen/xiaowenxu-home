@@ -79,3 +79,9 @@ a:hover{
   left: 50%;
   bottom: 10%;
 }
+
+@media only screen and (max-width: 600px) {
+  .pjct-content{
+    grid-template-columns: 100%;
+  }
+}
