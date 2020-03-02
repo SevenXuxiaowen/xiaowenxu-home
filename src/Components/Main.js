@@ -42,7 +42,7 @@ class Main extends React.Component{
                         </div>
                         <Fade>
                         <div className="pj-img">
-                            <img width="100%" alt="p1" src="img/1.gif"/>
+                            <img width="100%" height="auto" alt="p1" src="img/1.gif"/>
                         </div>
                         </Fade>
                     </div>
@@ -67,7 +67,7 @@ class Main extends React.Component{
                         </div>
                         <Fade>
                         <div className="pj-img">
-                            <img width="100%" alt="p2" src="img/2.gif"/>
+                            <img width="100%" height="auto" alt="p2" src="img/2.gif"/>
                         </div>
                         </Fade>
                     </div>
@@ -91,7 +91,7 @@ class Main extends React.Component{
                         </div>
                         <Fade>
                         <div className="pj-img">
-                            <img width="100%" alt="p4" src="img/4.gif"/>
+                            <img width="100%" height="auto" alt="p4" src="img/4.gif"/>
                         </div>
                         </Fade>
                     </div>
@@ -115,7 +115,7 @@ class Main extends React.Component{
                         </div>
                         <Fade>
                         <div className="pj-img">
-                            <img width="100%" alt="p3" src="img/3.gif"/>
+                            <img width="100%" height="auto" alt="p3" src="img/3.gif"/>
                         </div>
                         </Fade>
                     </div>
