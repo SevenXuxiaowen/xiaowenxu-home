@@ -12,12 +12,11 @@ class Main extends React.Component{
                     <div className="p-main">
                         <img width="250px" alt="icon" src="img/pixel.gif"/>
                         <div className="title">Seven Xu</div>
-                        
                         <p>Software Developer</p>
                         <br/>
                         <p className="grey">Java Javascript Node.js React MongoDB HTML CSS</p>
                         {/* <p className="grey"></p> */}
-                        <p className="grey">Bootstrap semanticUI d3<span className="flashing">_</span></p>
+                        <p className="grey">Redux Bootstrap semanticUI d3<span className="flashing">_</span></p>
                         
                         <div className="hint title">⇣</div>
                     </div>
