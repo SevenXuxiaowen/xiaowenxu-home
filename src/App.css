@@ -107,12 +107,8 @@ a:hover{
 
   .pj-img{
     padding: 0;
-    position: absolute;
-    top: 3%;
   }
   .pj-text{
     padding: 0 5%;
-    position: absolute;
-    top: 38%;
   }
 }
