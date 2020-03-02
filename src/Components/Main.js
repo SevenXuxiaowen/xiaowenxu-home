@@ -6,16 +6,17 @@ class Main extends React.Component{
     render() {
         return (
             <div id="container" ref={this.container}>
+                <div className="big-rec"></div>
                 <div className="page">
                     <Fade top cascade>
                     <div className="p-main">
-                        
+                        <img width="250px" alt="icon" src="img/pixel.gif"/>
                         <div className="title">Seven Xu</div>
-                        <br/>
+                        
                         <p>Software Developer</p>
                         <br/>
-                        <p className="grey">Java Javascript HTML CSS</p>
-                        <p className="grey">Node.js React MongoDB</p>
+                        <p className="grey">Java Javascript Node.js React MongoDB HTML CSS</p>
+                        {/* <p className="grey"></p> */}
                         <p className="grey">Bootstrap semanticUI d3<span className="flashing">_</span></p>
                         
                         <div className="hint title">⇣</div>
