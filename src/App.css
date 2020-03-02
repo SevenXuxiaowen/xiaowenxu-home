@@ -52,18 +52,19 @@ a:hover{
 
 .pjct-content{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
 }
 
 .pj-img{
   display: flex;
   justify-content: center;
+  padding: 10% 0;
+  
 }
 
 .pj-text{
   padding: 30% 10% 0 20%;
 }
-
 
 .title{
   font-weight: 700;
@@ -79,6 +80,7 @@ a:hover{
   left: 50%;
   bottom: 10%;
 }
+
 
 @media only screen and (max-width: 600px) {
   .pjct-content{

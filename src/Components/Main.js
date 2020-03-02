@@ -1,28 +1,7 @@
-import React from 'react'
-// // import ReactDOM from 'react-dom'
-// import ScrollSnap from 'scroll-snap'
-
-// const snapConfig = {
-//     scrollSnapDestination: '0% 100%',
-//     scrollTimeout: 50,
-//     scrollTime: 300,
-// }
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
 class Main extends React.Component{
-//     container = React.createRef();
-//     bindScrollSnap() {
-//         function callback() {
-//           // optional callback
-//         }
-    
-//         const element = this.container.current
-//         const snapObject = new ScrollSnap(element, snapConfig)
-//         snapObject.bind(callback)
-//     }
-
-//     componentDidMount() {
-//         this.bindScrollSnap()
-//     }
 
     render() {
         return (
@@ -42,7 +21,9 @@ class Main extends React.Component{
 
                 <div className="page p-1">
                     <div className="pjct-content">
+                        
                         <div className="pj-text">
+                            <Fade top cascade>
                             <div>
                                 <div className="title">We'd</div>
                                 <p>Online free-drawing smart annotation tool to find cannabis anomalies</p>
@@ -53,8 +34,13 @@ class Main extends React.Component{
                                 <p>node.js, jQuery, semantic UI, paper.js</p>
                                 <p className="grey">Transfer the drawing concepts in Adobe Illustrator like vectors, layers, segments to build multiple drawing tools and raster filter functions.</p>
                             </div>
+                            </Fade>
                         </div>
-                        <div className="pj-img">image/gif</div>
+                        <Fade>
+                        <div className="pj-img">
+                            <img width="100%" src="img/1.gif"/>
+                        </div>
+                        </Fade>
                     </div>
                 </div>
 
