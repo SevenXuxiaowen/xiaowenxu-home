@@ -7,16 +7,20 @@ class Main extends React.Component{
         return (
             <div id="container" ref={this.container}>
                 <div className="page">
+                    <Fade top cascade>
                     <div className="p-main">
+                        
                         <div className="title">Seven Xu</div>
                         <br/>
                         <p>Software Developer</p>
                         <br/>
                         <p className="grey">Java Javascript HTML CSS</p>
                         <p className="grey">Node.js React MongoDB</p>
-                        <p className="grey">Bootstrap semanticUI d3</p>
+                        <p className="grey">Bootstrap semanticUI d3<span className="flashing">_</span></p>
+                        
                         <div className="hint title">⇣</div>
                     </div>
+                    </Fade>
                 </div>
 
                 <div className="page p-1">
@@ -38,7 +42,7 @@ class Main extends React.Component{
                         </div>
                         <Fade>
                         <div className="pj-img">
-                            <img width="100%" src="img/1.gif"/>
+                            <img width="100%" alt="p1" src="img/1.gif"/>
                         </div>
                         </Fade>
                     </div>
@@ -47,6 +51,7 @@ class Main extends React.Component{
                 <div className="page p-2">
                     <div className="pjct-content">
                         <div className="pj-text">
+                            <Fade top cascade>
                             <div>
                                 <div className="title">Trauma Forest</div>
                                 <p>Web2.0 development</p>
@@ -58,32 +63,20 @@ class Main extends React.Component{
                                 <p className="grey">Web social community to help release the pressure of group who are in the shadow of childhood trauma, where the user can create, post and edit their story as well as write comments of other’s story. </p>
                                 <p className="grey">Algorithms support smart content feeding, search, user dashboard, notification badges, log-in/out, vote/tag/favorite system, natural language input searching, user-oriented suggestions.</p>
                             </div>
+                            </Fade>
                         </div>
-                        <div className="pj-img white">image/gif</div>
-                    </div>
-                </div>
-                
-                <div className="page p-3">
-                    <div className="pjct-content">
-                        <div className="pj-text">
-                            <div>
-                                <div className="title">MeHungry</div>
-                                <p> Embedded NLP Chatbot</p>
-                                <div>
-                                    <a href="https://github.com/SevenXuxiaowen/NPL_Bot_Development">GitHub</a>
-                                    <a href="https://pure-taiga-37357.herokuapp.com/">Demo</a>
-                                </div>
-                                <p>DialogFlow, Node.js, Express, React.js, materialize</p>
-                                <p className="grey">NPL Bot who can chat with you while help you book table and order meals.</p>
-                            </div>
+                        <Fade>
+                        <div className="pj-img">
+                            <img width="100%" alt="p2" src="img/2.gif"/>
                         </div>
-                        <div className="pj-img white">image/gif</div>
+                        </Fade>
                     </div>
                 </div>
 
                 <div className="page p-4">
                     <div className="pjct-content">
                         <div className="pj-text">
+                            <Fade top cascade>
                             <div>
                                 <div className="title">Smart Items</div>
                                 <p> Embedded NLP Chatbot</p>
@@ -94,8 +87,37 @@ class Main extends React.Component{
                                 <p>Node.js, Express, MongoDB, React.js, Bootstrap</p>
                                 <p className="grey">Responsive web application to display Walmart product search results and rank-ordered recommendations.</p>
                             </div>
+                            </Fade>
                         </div>
-                        <div className="pj-img">image/gif</div>
+                        <Fade>
+                        <div className="pj-img">
+                            <img width="100%" alt="p4" src="img/4.gif"/>
+                        </div>
+                        </Fade>
+                    </div>
+                </div>
+                
+                <div className="page p-3">
+                    <div className="pjct-content">
+                        <div className="pj-text">
+                            <Fade top cascade>
+                            <div>
+                                <div className="title">MeHungry</div>
+                                <p> Embedded NLP Chatbot</p>
+                                <div>
+                                    <a href="https://github.com/SevenXuxiaowen/NPL_Bot_Development">GitHub</a>
+                                    <a href="https://pure-taiga-37357.herokuapp.com/">Demo</a>
+                                </div>
+                                <p>DialogFlow, Node.js, Express, React.js, materialize</p>
+                                <p className="grey">NPL Bot who can chat with you while help you book table and order meals.</p>
+                            </div>
+                            </Fade>
+                        </div>
+                        <Fade>
+                        <div className="pj-img">
+                            <img width="100%" alt="p3" src="img/3.gif"/>
+                        </div>
+                        </Fade>
                     </div>
                 </div>
 

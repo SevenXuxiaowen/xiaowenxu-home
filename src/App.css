@@ -4,10 +4,12 @@ body {
   font-family: monospace;
   font-size: 16px;
   cursor: default;
+  color: rgb(0, 255, 0);
+  background-color: rgba(0, 0, 0, 0.932);
 }
 
 a{
-  color: rgb(0, 110, 255);
+  color: rgb(255, 255, 255);;
   padding-right: 20%;
 }
 a:hover{
@@ -59,7 +61,6 @@ a:hover{
   display: flex;
   justify-content: center;
   padding: 10% 0;
-  
 }
 
 .pj-text{
@@ -72,7 +73,7 @@ a:hover{
 }
 
 .grey{
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 255, 0, 0.63);
 }
 
 .hint {
@@ -81,9 +82,28 @@ a:hover{
   bottom: 10%;
 }
 
+.flashing{
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
 
 @media only screen and (max-width: 600px) {
   .pjct-content{
     grid-template-columns: 100%;
+  }
+
+  .pj-img{
+    padding: 0;
+    position: absolute;
+    top: 3%;
+  }
+  .pj-text{
+    padding: 0 5%;
+    position: absolute;
+    top: 38%;
   }
 }
